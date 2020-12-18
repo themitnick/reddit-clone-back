@@ -1,6 +1,5 @@
 package fr.themitnick.reddit.models;
 
-import com.sun.istack.internal.NotNull;
 import fr.themitnick.reddit.Enums.VoteType;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -8,6 +7,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
 
 
 @Entity

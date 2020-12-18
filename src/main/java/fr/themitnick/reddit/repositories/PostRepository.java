@@ -1,6 +1,6 @@
 package fr.themitnick.reddit.repositories;
 
-import fr.reddit.com.reddit.models.Post;
+import fr.themitnick.reddit.models.Post;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
